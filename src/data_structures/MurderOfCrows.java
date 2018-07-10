@@ -28,9 +28,13 @@ public class MurderOfCrows {
     		Crow c = theMurder.get(i);
     		ArrayList<String> stuff = c.getStomachContents();
 for (int j = 0; j < stuff.size(); j++) {
-if () {
+	System.out.println(stuff.get(j));
+	if (stuff.get(j).equals("diamond")) {
+System.out.println(c.getName());
+System.exit(0);
+	}
 	
-}
+
 }
 
 		}
@@ -39,7 +43,7 @@ if () {
          * then print the name of the guilty Crow.
          */
         
-        /* 2. How many innocent crows had to die before the diamond was found? */
+        /* 2. How many innocent crows had to die before the diamond was found? 50 */
         
     }
 

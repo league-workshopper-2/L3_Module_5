@@ -17,6 +17,7 @@ public class TestMatchingBrackets {
 		assertFalse(doBracketsMatch("{{}"));
 		assertFalse(doBracketsMatch("}{"));
 	}
+Stack<String> strings = new Stack<String>();
 
 	// USE A STACK TO COMPLETE THE METHOD FOR CHECKING IF EVERY OPENING BRACKET HAS A MATCHING CLOSING BRACKET
 	private boolean doBracketsMatch(String b) {
